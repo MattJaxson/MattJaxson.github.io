@@ -1,95 +1,204 @@
-div {
-	border-radius: 5px;
+html {
+  box-sizing: border-box!important;
 }
 
-#header {
-	z-index: 1;
-	position: fixed;
-	width: 97.5%;
-	margin-top: -40px;
-	height: 60px;
-	background-color: #b3b3b3;
-	margin-bottom: 10px;
+body {
+      font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-#name {
-	float:left;
-	margin-left: 5px;
-	padding-top: 5px;
-	font-size: 16px;
-	font-family: Verdana, sans-serif;
-	color: #003399;
-}
+nav {
+  background: #666666 !important;
+ }
 
-#email{
-	float:right;
-	margin-right: 5px;
-	padding-top: 5px;
-	font-size: 16px;
-	font-family: Verdana, sans-serif;
-	color: #003399;
-}
+.navbar-brand {
+   color: white!important; 
+   font-size: 1.6em;
+   font-family: 'Handlee', cursive;
+   padding-top: 18px;
+ }
 
-h4 {
-	margin-left: 5px;
-	margin-bottom: 15px;
-	font-family: Verdana, sans-serif;
-	color:#003399;
-}
 
-.right p {
-	margin-left: 5px;
-	margin-right: 5px;
-	margin-top: -10px;
-	font-family: Garamond, serif;
-	color: #003399;
-}
-
-li {
-	list-style-type: square;
-	color: #003399;
-}
-
-a:hover {
-	font-weight: bold;
-}
-
-.left {
-	position: relative;
-	float: left;
-	margin-top: 50px;
-	width: 10%;
-	height: 500px;
-	background-color: #003399;
-	margin-bottom: 10px;
-}
-
-.right {
-	position: relative;
-	float: right;
-	margin-top: 50px;
-	width: 88%;
-	height: 500px;
-	background-color: #F4EBC3;
-	margin-bottom: 10px;
-}
-
-#footer {
-	position: relative;
-	height: 50px;
-	background-color: #b3b3b3;
-	clear: both;
-	font-family: Verdana, sans-serif;
-	font-size: 14px;
-	text-align: center;
-	color: #003399;
-}
-
-#footer p {
-	position: relative;
-	padding-top: 15px;
+.nav.navbar-nav.navbar-right li a {
+   color: white;
+   font-family: 'Handlee', cursive;
+   padding-top: 18px;
+   font-size: 1.3em;
 } 
-body { 
-	background-color: #ffffff
 
+#home .intro-header {
+    padding-top: 100px;
+    padding-bottom:50px;
+    text-align: center;
+    color: white;
+    height: 650px;
+    background-image: url('http://gsim2345.github.io/photo-1440335680360-79703e7032f9%20copy.jpg');
+    background-size: cover;
+ }
+
+#home h1 {
+  margin-top: 90px;
+  }
+  
+#home hr {
+  width: 400px;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  border-top: 1px solid #f8f8f8;
+  max-width: 90%;
+}
+
+#home ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+#home .social-media-buttons > li {
+  padding-top: 0px;
+  text-align: center;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'Handlee', cursive;
+}
+
+#home i {
+  font-size: 20px;
+}
+
+#home #github i {
+  font-size: 20px;
+  padding-right: 7px;
+  
+}
+
+#home li a {
+  padding-top: 13px;
+}
+
+#home #github {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+#about {
+  padding-top:50px;
+  padding-bottom: 100px;
+  
+}
+
+#about h3 {
+  text-decoration: underline;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  font-family: 'Handlee', cursive;
+}
+
+#about p {
+  font-size: 16px;
+  font-weight: 300;
+  margin-left: 20px;
+}
+#about li {
+  font-size: 16px;
+  font-weight: 300;
+  margin-left: 20px;
+}
+
+#about img {
+  margin-top: 40px;
+  height: 200px;
+  border: 6px solid #666666
+}
+
+#portfolio {
+  background: rgb(247, 247, 247);
+  font-family: 'Handlee', cursive;
+}
+
+
+#portfolio img {
+  height: 200px;
+  display: block;
+  margin: auto;
+}
+
+#portfolio h3 {
+  text-decoration: underline;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  padding-left: 40px;
+}
+
+#portfolio .portfolio-piece {
+  border: 1px solid white;
+  display: block;
+  width: 250px;
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  margin-left: auto ;
+  margin-right: auto ;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 90%;
+}
+
+#contact {
+  background-color: #666666
+  /* background-color: rgb(162, 247, 101); */
+  
+}
+
+
+
+#contact p {
+  font-size: 14px;
+  padding-left: 40px;
+  padding-top: 20px;
+  word-wrap: break-word;
+}
+
+#contact .social-media-buttons > li {
+  padding: 0px;
+  text-align: center;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+ 
+}
+
+#contact ul {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#contact p i {
+  font-size: 18px;
+  color: white;
+  }
+
+#contact li i {
+  font-size: 40px;
+  color: white;
+}
+
+#contact p a {
+  color: white;
+  padding-bottom: -2px;
+  margin-top: 15px;
+}
+
+#contact p span {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+
+
+footer {
+  text-align: center;
+  font-size: 10px;
 }
